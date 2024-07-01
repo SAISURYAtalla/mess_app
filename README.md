@@ -1,16 +1,37 @@
-# mess_app
+# Digital Mess Application
 
-A new Flutter project.
+A digital solution for managing mess transactions with QR code scanning. Currently used by over 1000 students and extending to other colleges.
+
+## Purpose
+
+This application simplifies the management of mess transactions for students and administration. With QR code scanning capabilities, it ensures quick and accurate transaction processing.
+
+## Tech Stack
+
+- **Frontend:** Flutter
+- **Backend:** Node.js, hosted on AWS
+<!-- - **Database:** MongoDB (or mention the database you used if different) -->
+
+## Features
+
+- **QR Code Scanning:** Fast and reliable QR code scanning for mess transactions.
+- **Home Page:** Displays a timeline of upcoming meals and the number of meals consumed.
+- **Polls:** Participate in various polls.
+- **Notifications:** Stay updated with important notifications.
+- **Menu Section:** View the weekly menu day-wise.
+- **Feedback Section:** Provide feedback easily.
+- **User Profiles:** View and edit your profile.
+
+## Screenshots
+
+| Login Page                          | Home Page                          | QR Code Scanner                     | Dining Chart Section                 | Feedback Page                 | Menu Screen                 | Profile Section                 |
+|---------------------------------------|---------------------------------------|-------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|--------------------------------------|
+| ![Login Page](lib/screenshots/login.jpg) | ![Home Page](lib/screenshots/home_screen.jpg) | ![QR Code Scanner](lib/screenshots/qr_scanner.jpg) | ![Dining Chart Section](lib/screenshots/poll.jpg) | ![Feedback Page](lib/screenshots/feedback.jpg) | ![Menu Section](lib/screenshots/menu.jpg) | ![Profile Page](lib/screenshots/profile.jpg) |
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This application is available on the Google Play Store. You can download it [here](https://play.google.com/store/apps/details?id=com.ssshospitality.mess_app&pcampaignid=web_share).
 
-A few resources to get you started if this is your first Flutter project:
+## License
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
